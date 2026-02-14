@@ -1,0 +1,96 @@
+/* Importing the custom font for the application */
+@font-face {
+  font-family: "FuturaCustom";
+  src: url("./fonts/FuturaCyrillicBook.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Global reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Body styling with a custom font, gradient background, and padding */
+body {
+  font-family: "FuturaCustom", Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, #0f1a2f, #1b2a44);
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+/* Styling the container */
+.container {
+  width: 420px;
+  max-width: 90%;
+  margin: auto; 
+  background: #f2f2f2;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+/* Centering the main heading and adding spacing below it */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Styling the card elements with spacing above them */
+.card {
+  margin-top: 25px;
+}
+
+/* Adding spacing below the secondary headings */
+h2 {
+  margin-bottom: 10px;
+}
+
+/*Input field styling*/
+input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: "FuturaCustom", Arial, Helvetica, sans-serif;
+}
+
+/*Button styling*/
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "FuturaCustom", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+
+  background: linear-gradient(90deg, #5f6df0, #7c3aed);
+  transition: 0.2s;
+}
+
+/* Adding a hover effect to the buttons*/
+button:hover {
+  transform: scale(1.03);
+}
+
+/* Unordered list styling*/
+ul {
+  margin-top: 15px;
+  list-style: none;
+}
+
+/*Styling the list items*/
+li {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
